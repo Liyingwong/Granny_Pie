@@ -1,0 +1,196 @@
+/* WONG LI YING 289912 */
+/* Style for headings (h1 to h6) */
+h1, h2, h3, h4, h5, h6 {
+    display: inline-block;
+    color: #A4A400; /* Foreground color */
+    background-color: #F0F0F0; /* Background color */
+    font-family: 'Lucida Sans Unicode', 'Helvetica', 'Arial', sans-serif; /* Font family */
+    text-align: left;
+    font-weight: normal; 
+    text-decoration: underline; /* Underline */
+    padding: 10px; /* Add padding to headings */
+    margin: 0; /* Remove margin for headings */
+    letter-spacing: 0.25em;
+}
+
+/* Style for the main heading (h1) */
+h2, h3, h4, h5, h6 {
+    text-align: left; /* Center the main heading */
+    font-size: 22pt; /* Font size for the main heading */
+}
+
+h1{
+    text-align: center; /* Center the main heading */
+    font-size: 22pt; /* Font size for the main heading */
+    font-weight: bold; /* Bold font for the main heading */
+}
+
+
+body {
+    font-family: 'Georgia', 'Garamond', serif; /* Font family for body text */
+    background-color: white;
+    color: #404040;
+    font-size: 11pt;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('img/silverware.jpg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+header {
+    text-align: center;
+    background-color: #F0F0F0;
+    color: #A4A400;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 22pt;
+}
+
+header h1 {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+
+.info,.ingredient, .direction, .quote {
+    color: #404040;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 18pt;
+    border-bottom: 2px solid;
+}
+
+.ingredient-list {
+    padding-left: 60px;
+}
+
+.ingredient-list li {
+    list-style: disc inside;
+    background-color: transparent;
+}
+
+
+
+
+/* Style for the direction section */
+.direction {
+    color: black;
+    padding: 20px;
+    margin-bottom: 10px;
+    font-size: 18pt;
+}
+
+.direction ol {
+    list-style-type: decimal;
+    padding-left: 60px;
+}
+
+.direction ol li {
+    margin-bottom: 10px;
+}
+
+.direction strong {
+    color: black;
+}
+
+/* Style for substeps with circle */
+.substeps {
+    list-style-type: circle;
+    margin-left: 20px;
+    padding-left: 60px;
+}
+
+.last-sentence {
+    padding: 0;
+    margin: 0;
+}
+
+/* Adjust the overall indentation */
+.direction li {
+    padding-left: 1.5em;
+    text-indent: -1.5em;
+}
+
+.quote blockquote {
+    background-color: #FFFFA8;
+    padding: 0px;
+    border-radius: 0px;
+    margin: 40px;
+    max-width: 1100px; 
+    width: 100%; 
+}
+
+.quote blockquote i {
+    font-style: italic;
+}
+
+.quote blockquote p strong {
+    font-weight: bold;
+}
+
+
+ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul li{
+    margin-bottom: 10px;
+    list-style-image: url('img/pie_bullet.png');
+}
+
+a {
+    color: #A4A400;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Tooltip for abbreviations */
+abbr[title] {
+    text-decoration: none;
+    cursor: help;
+}
+
+/* Strikeout and replacement */
+.s-strike {
+    text-decoration: line-through;
+    color: black;
+}
+
+.s-replace {
+    text-decoration: none;
+    color: black;
+}
+
+/* Copyright notice */
+pre {
+    background-color: #F0F0F0;
+    color: #404040;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    white-space: pre;
+}
+
+.copyright-container {
+    background-color: transparent; 
+    padding: 20px; 
+    text-align: right; 
+    display: inline-block; 
+    margin-right: 10px; 
+}
+
+.validation-icons {
+    background-color: white; 
+    padding: 20px; 
+}
+
